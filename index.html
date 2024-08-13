@@ -3,22 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Seized</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Sludge Warehouse</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #ffff66;
+            color: #333333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 3em;
+            color: #ff0000;
+            margin: 20px;
+            text-shadow: 2px 2px #000000;
+        }
+        .container {
+            padding: 20px;
+            border: 5px dashed #000000;
+            margin: 20px;
+        }
+        .product {
+            background-color: #cccccc;
+            padding: 10px;
+            margin: 20px;
+            border: 3px solid #000000;
+            display: inline-block;
+            width: 200px;
+            height: 150px;
+        }
+        .product h2 {
+            font-size: 1.5em;
+            color: #006600;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 1em;
+            color: #0000ff;
+        }
+        .coming-soon {
+            font-size: 1.2em;
+            color: #ff6600;
+            font-weight: bold;
+            background-color: #ffffff;
+            border: 3px solid #ff0000;
+            padding: 10px;
+            margin-top: 10px;
+            display: block;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
+    <h1>Welcome to Sludge Warehouse!</h1>
     <div class="container">
-        <div class="warning-banner">
-            <h1>NOTICE OF SEIZURE</h1>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/2000px-Great_Seal_of_the_United_States_%28obverse%29.svg.png" alt="Government Seal">
+        <div class="product">
+            <h2>Sludge</h2>
+            <p>The finest sludge you'll ever find!</p>
+            <a class="coming-soon">COMING SOON!</a>
         </div>
-        <div class="message">
-            <p>This domain, <strong>SludgeWarehouse.com</strong>, has been seized by the United States federal government in accordance with federal law.</p>
-            <p>Unauthorized merchandising of slime, muck, goop, and related accessories violates federal regulations and has led to the confiscation of this website.</p>
-            <p>All sales and operations conducted through this website are now under investigation.</p>
-            <p>If you have any information regarding this case, please contact the appropriate federal authorities immediately.</p>
-            <p class="signature">Department of Justice, United States of America</p>
+        <div class="product">
+            <h2>Slime</h2>
+            <p>Sticky, gooey, and fun slime for all ages!</p>
+            <a class="coming-soon">COMING SOON!</a>
+        </div>
+        <div class="product">
+            <h2>Muck</h2>
+            <p>Get your hands dirty with our premium muck!</p>
+            <a class="coming-soon">COMING SOON!</a>
         </div>
     </div>
+    <footer>
+        <p>&copy; 2024 Sludge Warehouse | All Sludge Rights Reserved</p>
+    </footer>
 </body>
 </html>
